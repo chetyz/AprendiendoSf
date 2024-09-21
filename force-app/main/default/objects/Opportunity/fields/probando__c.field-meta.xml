@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>probando__c</fullName>
+    <description>Car brand options</description>
+    <inlineHelpText>Select the car brand</inlineHelpText>
+    <label>probando</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Renault,Audi,Tesla</fullName>
+                <default>false</default>
+                <label>Renault,Audi,Tesla</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
